@@ -10,6 +10,11 @@
 *{
     transition: all 0.2s;
 }
+@media (max-width: 700px) {
+  .card-columns {
+    --col-color: 1;
+  }
+}
 @media (min-width: 700px) {
   .card-columns {
     --col-color: 2;
