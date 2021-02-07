@@ -24,7 +24,7 @@ function ls(name) {
     router.navigate("");
     userList.filter(() => true);
   } else {
-    router.navigate("?type=" + type);
+    router.navigate("?type=" + name);
     userList.filter((e) => e["_values"].category == name);
   }
 }
